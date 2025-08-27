@@ -1,0 +1,30 @@
+{
+  "simulation": {
+    "time_step": 0.1,
+    "max_steps": 1000,
+    "world_width": 1000.0,
+    "world_height": 1000.0,
+    "enable_physics": true,
+    "enable_visualization": false,
+    "max_agents": 1000,
+    "random_seed": null
+  },
+  "agents": {
+    "autonomous": 30,
+    "reactive": 15,
+    "wanderer": 5
+  },
+  "output": {
+    "save_metrics": true,
+    "output_directory": "./output",
+    "save_visualization": false,
+    "metrics_interval": 10
+  },
+  "world": {
+    "initial_temperature": 20.0,
+    "initial_humidity": 0.5,
+    "enable_weather": true,
+    "obstacle_density": 0.02,
+    "resource_density": 0.01
+  }
+}
