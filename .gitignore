@@ -130,3 +130,6 @@ data/
 *.joblib
 *.h5
 *.hdf5
+
+# Claude Code
+.claude
